@@ -1,0 +1,20 @@
+h4 {
+    box-sizing: border-box;
+    text-align: center;
+
+    border: 10px solid #e25241;
+}
+
+p {
+    box-sizing: border-box;
+    text-align: center;
+
+    border: 10px solid #e25241;
+}
+
+.w3-padding-32 {
+    box-sizing: border-box;
+    text-align: center;
+
+    border: 10px solid #e25241;
+}

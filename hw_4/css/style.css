@@ -1,0 +1,22 @@
+.crystal-image {
+  width: 200px;
+  height: 200px;
+}
+
+#crystals {
+  background-color: brown;
+}
+
+h1 {
+  background-color: brown;
+}
+
+h2 {
+  background-color: orange;
+}
+
+
+
+body {
+  background-color: green;
+}

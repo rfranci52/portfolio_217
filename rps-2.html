@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <title>Rock Paper Scissors Part 2
+  </title>
+</head>
+
+<body>
+
+  <div id="game">
+
+  </div>
+  <div class="jumbotron">
+      <h2>You just typed <span id="user-text"><strong>...Nothing.</strong></span></h2>
+    </div>
+
+  <script type="text/javascript">
+
+    // Creates an array that lists out all of the options (Rock, Paper, or Scissors).
+    var computerChoices = ["r", "p", "s"];
+
+    // This function is run whenever the user presses a key.
+    document.onkeyup = function(event) {
+
+      // Determines which key was pressed.
+      var userGuess = event.key;
+
+      // Randomly chooses a choice from the options array. This is the Computer's guess.
+      var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+
+      // Alerts the key the user pressed (userGuess).
+      alert("User guess: " + userGuess);
+
+      // Alerts the Computer's guess.
+      alert("Computer guess: " + computerGuess);
+
+   
+
+    // prompt ("choose a letter");
+
+
+    if (userGuess === "q" ) {
+      alert ("wrong key, hit either r, p or s!") }
+
+      if (userGuess === "w" ) {
+      alert ("wrong key, hit either r, p or s!") }
+
+      if (userGuess === "e" ) {
+      alert ("wrong key, hit either r, p or s!") }
+
+      if (userGuess === "t" ) {
+      alert ("wrong key, hit either r, p or s!") }
+    
+      if (userGuess === "y" ) {
+      alert ("wrong key, hit either r, p or s!") }
+
+      if (userGuess === "u" ) {
+      alert ("wrong key, hit either r, p or s!") }
+    
+      if (userGuess === "i" ) {
+      alert ("wrong key, hit either r, p or s!") }
+
+      if (userGuess === "o" ) {
+      alert ("wrong key, hit either r, p or s!") }
+    
+      if (userGuess === "a" ) {
+      alert ("wrong key, hit either r, p or s!") }
+
+      if (userGuess === "d" ) {
+      alert ("wrong key, hit either r, p or s!") }
+    
+      if (userGuess === "f" ) {
+      alert ("wrong key, hit either r, p or s!") }
+
+      if (userGuess === "g" ) {
+      alert ("wrong key, hit either r, p or s!") }
+    
+      if (userGuess === "h" ) {
+      alert ("wrong key, hit either r, p or s!") }
+
+      if (userGuess === "j" ) {
+      alert ("wrong key, hit either r, p or s!") }
+    
+      if (userGuess === "k" ) {
+      alert ("wrong key, hit either r, p or s!") }
+
+      if (userGuess === "l" ) {
+      alert ("wrong key, hit either r, p or s!") }
+    
+      if (userGuess === "z" ) {
+      alert ("wrong key, hit either r, p or s!") }
+
+      if (userGuess === "x" ) {
+      alert ("wrong key, hit either r, p or s!") }
+    
+      if (userGuess === "c" ) {
+      alert ("wrong key, hit either r, p or s!") }
+
+      if (userGuess === "v" ) {
+      alert ("wrong key, hit either r, p or s!") }
+    
+      if (userGuess === "b" ) {
+      alert ("wrong key, hit either r, p or s!") }
+
+      if (userGuess === "n" ) {
+      alert ("wrong key, hit either r, p or s!") }
+    
+      if (userGuess === "m" ) {
+      alert ("wrong key, hit either r, p or s!") }
+
+      if (userGuess === "," ) {
+      alert ("wrong key, hit either r, p or s!") }
+    
+      if (userGuess === "." ) {
+      alert ("wrong key, hit either r, p or s!") }
+
+      if (userGuess === "/" ) {
+      alert ("wrong key, hit either r, p or s!") }
+    
+      if (userGuess === "1" ) {
+      alert ("wrong key, hit either r, p or s!") }
+
+      if (userGuess === "2" ) {
+      alert ("wrong key, hit either r, p or s!") }
+    
+      if (userGuess === "3" ) {
+      alert ("wrong key, hit either r, p or s!") }
+
+      if (userGuess === "4" ) {
+      alert ("wrong key, hit either r, p or s!") }
+    
+      if (userGuess === "5" ) {
+      alert ("wrong key, hit either r, p or s!") }
+
+      if (userGuess === "6" ) {
+      alert ("wrong key, hit either r, p or s!") }
+    
+
+    
+
+      if (userGuess === computerGuess ){ 
+        alert ("tie");
+      }
+
+
+// rps = 012
+    if (userGuess === "p" && computerGuess === "r"){ 
+      alert ("user wins");
+    }
+    
+
+      else if (userGuess === "r" && computerGuess === "p") { 
+      alert ("user wins");
+    }
+
+// 02
+  else if (userGuess === "r" && computerGuess === "s") { 
+      alert ("user wins");
+    }
+// 10
+
+else if (userGuess === "p" && computerGuess === "r") { 
+      alert ("computer wins");
+    }
+
+// 01
+else if (userGuess === "r" && computerGuess === "p") { 
+      alert ("computer wins");
+    }
+
+// 12
+    else if (userGuess === "p" && computerGuess === "s") { 
+      alert ("computer wins");
+    } else  {
+      alert("something")
+      }
+    };
+
+
+ 
+
+      
+    
+  </script>
+
+</body>
+
+</html>

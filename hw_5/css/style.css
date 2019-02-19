@@ -1,0 +1,27 @@
+#body {
+    background-image: url("https://image.shutterstock.com/z/stock-vector-background-of-the-patriots-day-military-ornament-victory-day-seamless-pattern-vector-1023440737.jpg");
+}
+
+#demo {
+    position: relative;
+    left: 500px;
+    bottom: 400px;
+}
+
+h1 {
+    background-color: red;
+    box-sizing: content-box;
+    width: 300px;
+    height: 100px;
+    padding: 30px;
+    border: 10px solid green;
+}
+
+h2 {
+    background-color: red;
+    box-sizing: content-box;
+    width: 300px;
+    height: 250px;
+    padding: 30px;
+    border: 10px solid green;
+}
