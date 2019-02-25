@@ -5,7 +5,7 @@ var array = [button1, button2]
 
 
 var button1 = $('#button1').on('click', function () {
-    var athlete_button_key = $.get("http://api.giphy.com/v1/gifs/search?q=michael+jordan&api_key=nWmC2DShZN8VR5yn5Yy1EFOmk22VNT6d&limit=5");
+    var athlete_button_key = $.get("https://api.giphy.com/v1/gifs/search?q=michael+jordan&api_key=nWmC2DShZN8VR5yn5Yy1EFOmk22VNT6d&limit=5");
 
     athlete_button_key.done(function (data) {
 
@@ -52,7 +52,7 @@ var button1 = $('#button1').on('click', function () {
 
 })
 var button2 = $('#button2').on('click', function () {
-    var athlete_button_key = $.get("http://api.giphy.com/v1/gifs/search?q=tom+brady&api_key=nWmC2DShZN8VR5yn5Yy1EFOmk22VNT6d&limit=5");
+    var athlete_button_key = $.get("https://api.giphy.com/v1/gifs/search?q=tom+brady&api_key=nWmC2DShZN8VR5yn5Yy1EFOmk22VNT6d&limit=5");
 
     athlete_button_key.done(function (data) {
 
@@ -100,7 +100,7 @@ var button2 = $('#button2').on('click', function () {
 
 
 var button4 = $('#button4').on('click', function () {
-    var athlete_button_key = $.get("http://api.giphy.com/v1/gifs/search?q=manny+ramirez&api_key=nWmC2DShZN8VR5yn5Yy1EFOmk22VNT6d&limit=5");
+    var athlete_button_key = $.get("https://api.giphy.com/v1/gifs/search?q=manny+ramirez&api_key=nWmC2DShZN8VR5yn5Yy1EFOmk22VNT6d&limit=5");
 
     athlete_button_key.done(function (data) {
 
@@ -150,7 +150,7 @@ var button4 = $('#button4').on('click', function () {
 
 
 var button5 = $('#button5').on('click', function () {
-    var athlete_button_key = $.get("http://api.giphy.com/v1/gifs/search?q=lebron+james&api_key=nWmC2DShZN8VR5yn5Yy1EFOmk22VNT6d&limit=5");
+    var athlete_button_key = $.get("https://api.giphy.com/v1/gifs/search?q=lebron+james&api_key=nWmC2DShZN8VR5yn5Yy1EFOmk22VNT6d&limit=5");
 
     athlete_button_key.done(function (data) {
 
@@ -201,7 +201,7 @@ var button5 = $('#button5').on('click', function () {
 
 
 var button6 = $('#button6').on('click', function () {
-    var athlete_button_key = $.get("http://api.giphy.com/v1/gifs/search?q=albert+pujos&api_key=nWmC2DShZN8VR5yn5Yy1EFOmk22VNT6d&limit=5");
+    var athlete_button_key = $.get("https://api.giphy.com/v1/gifs/search?q=albert+pujos&api_key=nWmC2DShZN8VR5yn5Yy1EFOmk22VNT6d&limit=5");
 
     athlete_button_key.done(function (data) {
 
@@ -268,7 +268,7 @@ var button3 = $('#athletesubmit').on('click', function () {
 
         var get_key =
             $.get(
-                "http://api.giphy.com/v1/gifs/search?q=" + name + "&api_key=nWmC2DShZN8VR5yn5Yy1EFOmk22VNT6d&limit=5");
+                "httsp://api.giphy.com/v1/gifs/search?q=" + name + "&api_key=nWmC2DShZN8VR5yn5Yy1EFOmk22VNT6d&limit=5");
 
         get_key.done(function (data) {
 
@@ -296,7 +296,7 @@ var button3 = $('#athletesubmit').on('click', function () {
 
                     var get_key =
                         $.get(
-                            "http://api.giphy.com/v1/gifs/search?q=" + name + "&api_key=nWmC2DShZN8VR5yn5Yy1EFOmk22VNT6d&limit=5");
+                            "https://api.giphy.com/v1/gifs/search?q=" + name + "&api_key=nWmC2DShZN8VR5yn5Yy1EFOmk22VNT6d&limit=5");
 
                     get_key.done(function (data) {
                         for (var i = 0; data.data.length; i++)
