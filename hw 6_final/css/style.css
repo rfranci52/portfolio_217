@@ -1,0 +1,22 @@
+/* h1 {
+
+    position: relative;
+    top: 50px;
+
+}
+
+button {
+    position: relative;
+    top: 50px;
+
+
+} */
+body {
+    background-color: red;
+}
+
+.jumbotron {
+    background-color: blue;
+    color: black;
+    text-align: center;
+}
