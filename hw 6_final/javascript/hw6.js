@@ -268,7 +268,7 @@ var button3 = $('#athletesubmit').on('click', function () {
 
         var get_key =
             $.get(
-                "httsp://api.giphy.com/v1/gifs/search?q=" + name + "&api_key=nWmC2DShZN8VR5yn5Yy1EFOmk22VNT6d&limit=5");
+                "https://api.giphy.com/v1/gifs/search?q=" + name + "&api_key=nWmC2DShZN8VR5yn5Yy1EFOmk22VNT6d&limit=5");
 
         get_key.done(function (data) {
 
